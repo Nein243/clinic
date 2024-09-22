@@ -26,6 +26,9 @@ section{
     justify-content: space-between;
     align-items: center;
 }
+.main-list{
+    display: flex;
+}
 nav{
     background-color: #e2e8f0;
     min-height: 100%;
@@ -55,9 +58,6 @@ main{
 .card-form_row{
     padding: 7px 5px;
 
-}
-.card-form_columns{
-    display: flex;
 }
 
 .card-form_row select, input{
@@ -95,7 +95,6 @@ main{
     padding: 5px;
     margin: 7px 0px 0px 0px;
     border: 1px solid rgb(118, 118, 118);
-    width: 400px;
 }
 .card-form_header{
     font-size: 16px;
@@ -109,8 +108,8 @@ main{
     color: #082f49;
 }
 .patient_image{
-    width: 195px;
-    height: 195px;
+    width: 150px;
+    height: 150px;
 }
 .patient_image img{
     width: 100%;
@@ -120,6 +119,11 @@ main{
 .worker_image{
     width: 260px;
     height: 260px;
+}
+.card-form_row_image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .worker_image img{
     width: 100%;

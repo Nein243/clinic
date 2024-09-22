@@ -6,14 +6,21 @@ require_once "header.php";
     <?php
     require_once "authorization_link.php";
     ?>
-
 </div>
-<?php
-require "patient_card.php";
-?>
-<?php
-require "patient_card.php";
-?>
+<div class="main-list">
+    <?php
+    require "patient_card.php";
+    ?>
+    <?php
+    require "patient_card.php";
+    ?>
+    <?php
+    require "patient_card.php";
+    ?>
+    <?php
+    require "patient_card.php";
+    ?>
+</div>
 <?php
 require_once "footer.php";
 ?>
