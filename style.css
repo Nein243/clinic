@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    overflow: auto;
+}
+section{
+    display: flex;
+    align-items: flex-start;
+    height: 120vh;
+
+}
+.main-header{
+    padding: 10px 40px;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    background-color: #e2e8f0;
+    min-height: 100%;
+    position: relative;
+}
+.nav_row{
+    border-top: 1px solid #94a3b8;
+    padding: 10px;
+}
+nav a{
+    display: block;
+    padding: 5px 5px;
+    color: #082f49;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+main{
+    width: 100%;
+}
+.card-form{
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #0c4a6e;
+}
+.card-form_row{
+    padding: 7px 5px;
+
+}
+.card-form_columns{
+    display: flex;
+}
+
+.card-form_row select, input{
+    display: block;
+    width: 400px;
+    margin: 7px 0px 0px 0px;
+    padding: 5px;
+
+}
+.card-form_submit{
+    display: flex;
+    justify-content: center;
+}
+.card-form_submit input{
+    background-color: #3b82f6;
+    color: #eff6ff;
+    border-radius: 5px;
+    border: 3px solid #1e3a8a;
+}
+.card-form_submit input:hover {
+    background-color: #1d4ed8;
+}
+.add-form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.card-form_radio input{
+    width: 20px;
+    display: inline
+}
+.card-form_text{
+    background-color: white;
+    padding: 5px;
+    margin: 7px 0px 0px 0px;
+    border: 1px solid rgb(118, 118, 118);
+    width: 400px;
+}
+.card-form_header{
+    font-size: 16px;
+}
+.singup_link{
+    color: #0c4a6e;
+    font-size: 17px;
+    font-weight: bold;
+}
+.singup_link:hover{
+    color: #082f49;
+}
+.patient_image{
+    width: 195px;
+    height: 195px;
+}
+.patient_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.worker_image{
+    width: 260px;
+    height: 260px;
+}
+.worker_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card-form_column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
