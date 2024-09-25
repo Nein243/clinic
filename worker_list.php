@@ -8,12 +8,15 @@ require_once "header.php";
     ?>
 
 </div>
-<?php
-require "worker_card.php";
-?>
-<?php
-require "worker_card.php";
-?>
+<div class="main-list">
+    <?php
+    require "worker_card.php";
+    ?>
+    <?php
+    require "worker_card.php";
+    ?>
+</div>
+
 <?php
 require_once "footer.php";
 ?>

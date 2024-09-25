@@ -13,7 +13,11 @@ require_once "header.php";
             </div>
             <div class="card-form_row">
                 <label for="password">Введите пароль</label>
-                <input id="password" type="password" required>
+                <input id="password" name="password" type="password" required>
+            </div>
+            <div class="card-form_row">
+                <label for="password">Потвердите пароль</label>
+                <input id="password-confirm" name="password-confirm" type="password" required>
             </div>
             <div class="card-form_row card-form_submit">
                 <input id="submit_signup" type="submit">
