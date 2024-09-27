@@ -53,7 +53,7 @@
                 <input id="photo" name="photo" type="file" accept="image/*">
             </div>
             <div class="card-form_row card-form_submit">
-                <input type="submit" value="Зарегистрировать пациента">
+                <input type="submit" name="submit" value="Зарегистрировать пациента">
             </div>
         </fieldset>
     </form>
