@@ -1,14 +1,10 @@
 <?php
 $pdo = new PDO('mysql:host=localhost;dbname=clinic', 'root', '');
-$query = $pdo->prepare('SELECT * FROM `admins` WHERE position="doctor"');
+$query = $pdo->prepare('SELECT * FROM `admins` WHERE position="moder"');
 $query->execute();
 $result = $query->fetchAll(PDO::FETCH_ASSOC);
-echo "<pre>";
-print_r($result);
-echo "</pre>";
 ?>
-
-<?php foreach ($result as $item):?>
+<?php foreach ($result as $item): ?>
     <div class="add-form">
         <div class="card-form card-form_columns">
             <div class="card-form_column">
@@ -20,22 +16,22 @@ echo "</pre>";
             </div>
             <div class="card-form_column">
                 <div class="card-form_row">
+                    <div class="card-form_header">Ф.И.О. доктора:</div>
+                    <div class="card-form_text"><?= $item["name_worker"]?></div>
+                </div>
+                <div class="card-form_row">
                     <div class="card-form_header">Дата рождения:</div>
                     <div class="card-form_text"><?= $item["date_worker"]?></div>
                 </div>
                 <div class="card-form_row">
-                    <div class="card-form_header">Ф.И.О. сотрудника:</div>
-                    <div class="card-form_text">Данилов Данилов</div>
-                </div>
-                <div class="card-form_row">
-                    <div class="card-form_header">Пол сотрудника:</div>
-                    <div class="card-form_text">мужской</div>
+                    <div class="card-form_header">Номер телефона:</div>
+                    <div class="card-form_text"><?= $item["phone_worker"]?></div>
                 </div>
                 <div class="card-form_row">
                     <div class="card-form_header">Должность сотрудника:</div>
-                    <div class="card-form_text">Врач-терапевт</div>
+                    <div class="card-form_text"><?= $item["position"]?></div>
                 </div>
             </div>
         </div>
     </div>
-<?php endforeach;?>
+<?php endforeach; ?>

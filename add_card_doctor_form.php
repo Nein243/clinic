@@ -1,13 +1,13 @@
 <div class="add-form">
-    <form action="handler/add_card_worker_handler.php" method="post">
+    <form action="handler/add_card_doctor_handler.php" method="post">
         <fieldset class="card-form">
             <div class="card-form_row">
                 <label for="login">Введите логин</label>
-                <input id="login" name="login" type="text" pattern="[a-zA-Z][a-zA-Z0-9-_.]{5,20}">
+                <input id="login" name="login" type="text" pattern="[a-zA-Z][a-zA-Z0-9-_.]{5,20}" required>
             </div>
             <div class="card-form_row">
                 <label for="password">Введите пароль</label>
-                <input id="password" name="password" type="password">
+                <input id="password" name="password" type="password" required>
             </div>
             <div class="card-form_row">
                 <label for="name_worker">Ф.И.О.:</label>
@@ -40,7 +40,7 @@
                 <input id="photo" name="photo_worker" type="file" accept="image/*">
             </div>
             <div class="card-form_row card-form_submit">
-                <input id="submit_signup" name="submit" type="submit">
+                <input id="submit" name="submit" type="submit">
             </div>
         </fieldset>
     </form>

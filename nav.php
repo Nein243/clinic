@@ -9,8 +9,10 @@
     </div>
     <div class="nav_row">
         <h4>Сотрудники</h4>
-        <a href="add_card_worker.php">Добавить</a>
-        <a href="worker_list.php">Список врачей</a></div>
+        <a href="add_card_doctor.php">Добавить</a>
+        <a href="doctor_list.php">Список врачей</a>
+        <a href="moderator_list.php">Список модераторов</a>
+    </div>
     <div class="nav_row">
         <h4>Приемы</h4>
         <a href="">Назначить прием</a>
