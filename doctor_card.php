@@ -16,19 +16,19 @@ $result = $query->fetchAll(PDO::FETCH_ASSOC);
             </div>
             <div class="card-form_column">
                 <div class="card-form_row">
-                    <div class="card-form_header">Ф.И.О. доктора:</div>
+                    <div class="card-form_header">Full name:</div>
                     <div class="card-form_text"><?= $item["name_worker"]?></div>
                 </div>
                 <div class="card-form_row">
-                    <div class="card-form_header">Дата рождения:</div>
+                    <div class="card-form_header">Birth date:</div>
                     <div class="card-form_text"><?= $item["date_worker"]?></div>
                 </div>
                 <div class="card-form_row">
-                    <div class="card-form_header">Номер телефона:</div>
+                    <div class="card-form_header">Phone number:</div>
                     <div class="card-form_text"><?= $item["phone_worker"]?></div>
                 </div>
                 <div class="card-form_row">
-                    <div class="card-form_header">Должность сотрудника:</div>
+                    <div class="card-form_header">Position of worker:</div>
                     <div class="card-form_text"><?= $item["position"]?></div>
                 </div>
             </div>

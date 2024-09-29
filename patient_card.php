@@ -13,31 +13,31 @@ $result = $query->fetchAll((PDO::FETCH_ASSOC));
                 </div>
             </div>
             <div class="card-form_row">
-                <div class="card-form_header">Ф.И.О. пациента:</div>
+                <div class="card-form_header">Full name:</div>
                 <div class="card-form_text"><?= $item["name"]?></div>
             </div>
             <div class="card-form_row">
-                <div class="card-form_header">Пол пациента:</div>
+                <div class="card-form_header">Sex:</div>
                 <div class="card-form_text"><?= $item["sex"]?></div>
             </div>
             <div class="card-form_row">
-                <div class="card-form_header">Дата рождения:</div>
+                <div class="card-form_header">Birth date:</div>
                 <div class="card-form_text"><?= $item["birth_date"]?></div>
             </div>
             <div class="card-form_row">
-                <div class="card-form_header">Группа крови:</div>
+                <div class="card-form_header">Blood type:</div>
                 <div class="card-form_text"><?= $item["blood_type"]?></div>
             </div>
             <div class="card-form_row">
-                <div class="card-form_header">Номер телефона:</div>
+                <div class="card-form_header">Phone number:</div>
                 <div class="card-form_text"><?= $item["phone_number"]?></div>
             </div>
             <div class="card-form_row">
-                <div class="card-form_header">Адресс:</div>
+                <div class="card-form_header">Address:</div>
                 <div class="card-form_text"><?= $item["address"]?></div>
             </div>
             <div class="card-form_row">
-                <div class="card-form_header">Статус пациента:</div>
+                <div class="card-form_header">Patient status:</div>
                 <div class="card-form_text"><?= $item["status"]?></div>
             </div>
         </div>

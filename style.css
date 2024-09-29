@@ -26,34 +26,39 @@ section{
     justify-content: space-between;
     align-items: center;
 }
+.main-header h1{
+    font-size: 36px;
+    color: #1A3444;
+
+}
 .main-list{
     display: flex;
 }
 nav{
-    background-color: #e2e8f0;
+    background-color: #075985;
     min-height: 100%;
     position: relative;
 }
 .nav_row{
-    border-top: 1px solid #94a3b8;
     padding: 10px;
 }
 nav a{
     display: block;
     padding: 5px 5px;
-    color: #082f49;
+    color: #FFFFFF;
 }
-nav a:hover{
-  text-decoration: underline;
+nav h4{
+    color: #FFFFFF;
 }
+
 main{
     width: 100%;
 }
 .card-form{
-    background-color: #f8fafc;
+    background-color: #f4f4f5;
     padding: 10px;
-    border-radius: 10px;
-    border: 4px solid #0c4a6e;
+    border-radius: 15px;
+    border: 1px solid #e4e4e7;
 }
 .card-form_row{
     padding: 7px 5px;
@@ -65,7 +70,8 @@ main{
     width: 400px;
     margin: 7px 0px 0px 0px;
     padding: 5px;
-
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
 }
 .card-form_submit{
     display: flex;
@@ -74,8 +80,7 @@ main{
 .card-form_submit input{
     background-color: #3b82f6;
     color: #eff6ff;
-    border-radius: 5px;
-    border: 3px solid #1e3a8a;
+    padding: 10px;
 }
 .card-form_submit input:hover {
     background-color: #1d4ed8;
@@ -94,18 +99,20 @@ main{
     background-color: white;
     padding: 5px;
     margin: 7px 0px 0px 0px;
-    border: 1px solid rgb(118, 118, 118);
+    border: 1px solid #e4e4e7;
+    border-radius: 7px;
 }
+
 .card-form_header{
     font-size: 16px;
 }
 .singup_link{
-    color: #0c4a6e;
-    font-size: 17px;
+    color: #1A3444;
+    font-size: 24px;
     font-weight: bold;
 }
 .singup_link:hover{
-    color: #082f49;
+    color: darkblue;
 }
 .patient_image{
     width: 150px;

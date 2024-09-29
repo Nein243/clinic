@@ -2,7 +2,7 @@
 require_once "header.php";
 ?>
     <div class="main-header">
-        <h1>Добавить пациента</h1>
+        <h1>Add a patient</h1>
         <?php
         require_once "authorization_link.php";
         ?>
