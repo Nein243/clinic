@@ -1,3 +1,6 @@
+<?php session_start();
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,3 +17,9 @@
     require_once "nav.php";
     ?>
     <main>
+        <?php if(isset($_SESSION["error"])): ?>
+        <div class="alert error">
+            <?= $_SESSION["error"]; ?>
+            <?php unset($_SESSION["error"]); ?>
+        </div>
+        <?php endif; ?>
